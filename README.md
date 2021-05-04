@@ -1,3 +1,28 @@
+# Generic Red Black Tree
+### A generic implementation of Red Black Trees in C++
+## By _Sai Eashwar K S, Monisha Chandra_
+
+A red-black tree is a binary search tree with one extra bit of storage per node: its color, which can be either RED or BLACK. By constraining the way nodes can be colored on any path from the root to a leaf, red-black trees ensure that no such path is more than twice as long as any other, so that the tree is approximately balanced. 
+
+Each node of the tree now contains the fields color, key, left, right, and parent.
+A binary search tree is a red-black tree if it satisfies the following red-black properties:
+
+1. Every node is either red or black.
+2. Every leaf (NIL) is black.
+3. If a node is red, then both its children are black.
+4. Every simple path from a node to a descendant leaf contains the same number of black nodes.
+
+### Useful resources
+- [Introduction](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
+- [Insertion](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
+- [Deletion](https://www.geeksforgeeks.org/red-black-tree-set-3-delete-2/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+
+### Shareable Single Page website
+[Generic Red Black Tree](https://saieashwarks.github.io/Generic_RedBlackTree/)
+
+### Documentation and execution info
+```txt
 Files : 
 - rbt.h :
     - contains declarations and definitions of the necessarry classes for the red black tree and their methods
@@ -209,3 +234,13 @@ class RBT :
         - returns a reverse iterator to nullptr
     - size() : int  
         - return the number of nodes in the tree
+```
+
+## About me
+
+
+| Handle | Link |
+| ------ | ------ |
+| GitHub | [https://github.com/SaiEashwarKS](https://github.com/SaiEashwarKS) |
+| LinkedIn | [https://www.linkedin.com/in/sai-eashwar-k-s](https://www.linkedin.com/in/sai-eashwar-k-s)|
+| Email | [saieashwar.ks@gmail.com](saieashwar.ks@gmail.com) |
