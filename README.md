@@ -236,11 +236,3 @@ class RBT :
         - return the number of nodes in the tree
 ```
 
-## About me
-
-
-| Handle | Link |
-| ------ | ------ |
-| GitHub | [https://github.com/SaiEashwarKS](https://github.com/SaiEashwarKS) |
-| LinkedIn | [https://www.linkedin.com/in/sai-eashwar-k-s](https://www.linkedin.com/in/sai-eashwar-k-s)|
-| Email | [saieashwar.ks@gmail.com](saieashwar.ks@gmail.com) |
